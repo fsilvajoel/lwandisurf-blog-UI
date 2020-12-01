@@ -1,11 +1,15 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-
-import Body from './components/Body';
+import React from "react";
+import ReactDOM from "react-dom";
+import { Provider } from "react-redux";
+import Routes from "./core/router/routes";
+import { createStore } from "redux";
+import reducers from "./shared/redux/index";
 
 ReactDOM.render(
-  <React.StrictMode>
-    <Body/>
-  </React.StrictMode>,
-  document.getElementById('root')
+  <Provider store={createStore(reducers)}>
+    <React.StrictMode>
+      <Routes />
+    </React.StrictMode>
+  </Provider>,
+  document.getElementById("root")
 );
