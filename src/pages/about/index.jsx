@@ -3,7 +3,7 @@ import SocialLinks from "../../components/socialLinks";
 import Header from "../../components/header";
 import Footer from "../../components/footer/index";
 
-function Blog() {
+function About() {
   return (
     <div id="fh5co-wrapper">
         <div id="fh5co-page">
@@ -11,7 +11,7 @@ function Blog() {
             <Header />
             <div className="fh5co-content-section">
                 <div className="fh5co-section-title text-center">
-                    <h1>Blog</h1>
+                    <h1>About us</h1>
                 </div>
                 <div className="container">
                     <div className="row">
@@ -31,4 +31,4 @@ function Blog() {
   );
 }
 
-export default Blog;
+export default About;

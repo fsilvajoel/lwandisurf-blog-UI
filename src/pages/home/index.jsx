@@ -18,7 +18,7 @@ const Home = () => {
           <SocialLinks />
           <Header />
           <BannerIntro
-            mainTitle="Título principal"
+            mainTitle="Título Principal"
             subtitle="Título secundário"
             image="images/cover_bg_1.jpg"
             buttonContent="Message Button"

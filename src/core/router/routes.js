@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Home from "../../pages/home/index";
 import Blog from "../../pages/blog";
+import About from "../../pages/about";
 import Contact from "../../pages/contact";
 import Gallery from "../../pages/gallery";
 
@@ -13,14 +14,20 @@ const routeList = [
     private: false,
   },
   {
-    path: "/contact",
-    component: Contact,
+    path: "/blog",
+    component: Blog,
     exact: true,
     private: false,
   },
   {
-    path: "/blog",
-    component: Blog,
+    path: "/about",
+    component: About,
+    exact: true,
+    private: false,
+  },
+  {
+    path: "/contact",
+    component: Contact,
     exact: true,
     private: false,
   },

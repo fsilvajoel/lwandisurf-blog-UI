@@ -13,13 +13,13 @@ function SocialLinks() {
             <a href="#">Contact</a>
           </div>
           <div className="col-md-6 col-sm-6 text-right fh5co-social">
-            <a href="#" className="grow">
+            <a href="https://linktr.ee/lwandisurf" className="grow">
+              <i className="icon-dribbble2"></i>
+            </a>
+            <a href="https://www.facebook.com/lwandisurf/" className="grow">
               <i className="icon-facebook2"></i>
             </a>
-            <a href="#" className="grow">
-              <i className="icon-twitter2"></i>
-            </a>
-            <a href="#" className="grow">
+            <a href="https://www.instagram.com/lwandisurf/" className="grow">
               <i className="icon-instagram2"></i>
             </a>
           </div>
