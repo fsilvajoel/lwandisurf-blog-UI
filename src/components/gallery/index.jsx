@@ -8,12 +8,7 @@ function GaleryPreview() {
       <div className="container">
         <div className="row">
           <div className="col-md-6 col-md-offset-3 text-center heading-section animate-box">
-            <h3>Our Gallery</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit
-              est facilis maiores, perspiciatis accusamus asperiores sint
-              consequuntur debitis.
-            </p>
+            <h3>Galeria</h3>
           </div>
         </div>
 
@@ -24,7 +19,7 @@ function GaleryPreview() {
                 className="two-third animate-box"
                 data-animate-effect="fadeIn"
                 style={{
-                  backgroundImage: "url('images/cover_bg_1.jpg')",
+                  backgroundImage: "url('images/galeria1.jpg')",
                 }}
               >
                 <a href="#" className="color-3">
@@ -39,7 +34,7 @@ function GaleryPreview() {
                 className="one-third animate-box"
                 data-animate-effect="fadeIn"
                 style={{
-                  backgroundImage: "url('images/cover_bg_3.jpg')",
+                  backgroundImage: "url('images/galeria2.jpg')",
                 }}
               >
                 <a href="#" className="color-4">
@@ -54,7 +49,7 @@ function GaleryPreview() {
                 className="one-third animate-box"
                 data-animate-effect="fadeIn"
                 style={{
-                  backgroundImage: "url('images/cover_bg_1.jpg')",
+                  backgroundImage: "url('images/galeria3.jpg')",
                 }}
               >
                 <a href="#" className="color-5">
@@ -68,7 +63,7 @@ function GaleryPreview() {
                 className="two-third animate-box"
                 data-animate-effect="fadeIn"
                 style={{
-                  backgroundImage: "url('images/cover_bg_3.jpg')",
+                  backgroundImage: "url('images/galeria4.jpg')",
                 }}
               >
                 <a href="#" className="color-6">

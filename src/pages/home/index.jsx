@@ -10,108 +10,84 @@ import Gallery from "../../components/gallery";
 import Projects from "../../components/projects";
 import Volunteers from "../../components/volunteers";
 import CallBanner from "../../components/callBanner";
+
 const Home = () => {
-  return (
-    <>
-      <div id="fh5co-wrapper">
-        <div id="fh5co-page">
-          <SocialLinks />
-          <Header />
-          <BannerIntro
-            mainTitle="Título Principal"
-            subtitle="Título secundário"
-            image="images/cover_bg_1.jpg"
-            buttonContent="Message Button"
-            btnLink="/"
-          />
-          {/* <!-- end:header-top --> */}
-          <CallBanner />
+    return (
+        <>
+        <div id="fh5co-wrapper">
+            <div id="fh5co-page">
+                <SocialLinks />
+                <Header />
+                <BannerIntro
+                    mainTitle="Lwandisurf"
+                    subtitle="Uma onda de esperança"
+                    image="images/home-cover.jpg"
+                    buttonContent="Message Button"
+                    btnLink="/"
+                    classExtra="fh5co-cover-center h2-100"
+                />
+                {/* <!-- end:header-top --> */}
+                {/* <CallBanner /> */}
 
-          <div id="fh5co-feature-product" className="fh5co-section-gray">
-            <div className="container">
-              <div className="row">
-                <div className="col-md-12 text-center heading-section">
-                  <h3>Giving is Virtue.</h3>
-                  <p>
-                    Far far away, behind the word mountains, far from the
-                    countries Vokalia and Consonantia, there live the blind
-                    texts.
-                  </p>
-                </div>
-              </div>
+                <div id="fh5co-feature-product" className="fh5co-section-gray">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-md-12 text-center heading-section">
+                                <h3>Missão, visão e valores.</h3>
+                            </div>
+                        </div>
+                        <div className="row">
+                            <div className="col-md-4">
+                                <div className="feature-text">
+                                    <h3>Missão</h3>
+                                    <p>
+                                        Criar um espaço seguro para que adolescentes em situação de vulnerabilidade social se envolvam em atividades que melhorem seu bem-estar físico e mental, assim como habilidades acadêmicas e vocacionais.
+                                    </p>
+                                </div>
+                            </div>
 
-              <div className="row row-bottom-padded-md">
-                <div className="col-md-12 text-center animate-box">
-                  <p>
-                    <img
-                      src="images/cover_bg_1.jpg"
-                      alt="Free HTML5 Bootstrap Template"
-                      className="img-responsive"
-                    />
-                  </p>
+                            <div className="col-md-4">
+                                <div className="feature-text">
+                                    <h3>Valores</h3>
+                                    <p>
+                                        Os nosso valores foram criados junto com a primeira turma durante uma roda de conversa. E o surfe não poderia faltar: <b>S</b>onhar grande, <b>U</b>nião, <b>R</b>espeito, <b>F</b>elicidade e <b>E</b>mpatia.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div className="col-md-4">
+                                <div className="feature-text">
+                                    <h3>Visão</h3>
+                                    <p>
+                                        Conectando a comunidade através do surfe.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div className="col-md-6 text-center animate-box">
-                  <p>
-                    <img
-                      src="images/cover_bg_2.jpg"
-                      alt="Free HTML5 Bootstrap Template"
-                      className="img-responsive"
-                    />
-                  </p>
+
+                <Gallery />
+                <Volunteers />
+
+
+                <div id="fh5co-services-section">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-md-6 col-md-offset-3 text-center heading-section animate-box">
+                            <h3>Nossos Projetos</h3>
+                            </div>
+                        </div>
+
+                        <Projects />
+                    </div>
                 </div>
-                <div className="col-md-6 text-center animate-box">
-                  <p>
-                    <img
-                      src="images/cover_bg_3.jpg"
-                      alt="Free HTML5 Bootstrap Template"
-                      className="img-responsive"
-                    />
-                  </p>
-                </div>
-              </div>
-              <div className="row">
-                <div className="col-md-4">
-                  <div className="feature-text">
-                    <h3>Love</h3>
-                    <p>
-                      Far far away, behind the word mountains, far from the
-                      countries Vokalia and Consonantia, there live the blind
-                      texts.
-                    </p>
-                  </div>
-                </div>
-                <div className="col-md-4">
-                  <div className="feature-text">
-                    <h3>Compassion</h3>
-                    <p>
-                      Far far away, behind the word mountains, far from the
-                      countries Vokalia and Consonantia, there live the blind
-                      texts.
-                    </p>
-                  </div>
-                </div>
-                <div className="col-md-4">
-                  <div className="feature-text">
-                    <h3>Charity</h3>
-                    <p>
-                      Far far away, behind the word mountains, far from the
-                      countries Vokalia and Consonantia, there live the blind
-                      texts.
-                    </p>
-                  </div>
-                </div>
-              </div>
+
+                <BlogPreview />
+                <Footer />
             </div>
-          </div>
-
-          <Gallery />
-          <Volunteers />
-          <Projects />
-          <BlogPreview />
-          <Footer />
         </div>
-      </div>
-    </>
-  );
+        </>
+    );
 };
 export default Home;

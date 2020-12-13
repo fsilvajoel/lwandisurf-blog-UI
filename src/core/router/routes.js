@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Home from "../../pages/home/index";
+import Project from "../../pages/project";
 import Blog from "../../pages/blog";
 import About from "../../pages/about";
 import Contact from "../../pages/contact";
@@ -10,6 +11,12 @@ const routeList = [
   {
     path: "/",
     component: Home,
+    exact: true,
+    private: false,
+  },
+  {
+    path: "/project",
+    component: Project,
     exact: true,
     private: false,
   },

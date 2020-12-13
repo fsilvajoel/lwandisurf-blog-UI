@@ -32,7 +32,7 @@ body {
   line-height: 1.6;
   font-size: 16px;
   background: #fff;
-  color: #848484;
+  color: #333;
   font-weight: 300;
   overflow-x: hidden;
 }
@@ -53,13 +53,13 @@ a:hover {
 
 p, ul, ol {
   margin-bottom: 1.5em;
-  font-size: 16px;
-  color: #848484;
+  font-size: 18px;
+  color: #333;
   font-family: "Open Sans", Arial, sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #5a5a5a;
+  color: #333;
   font-family: "Open Sans", Arial, sans-serif;
   font-weight: 400;
   margin: 0 0 30px 0;
@@ -154,6 +154,14 @@ figure {
   position: relative;
   height: 800px;
 }
+.fh5co-cover-center {
+  background-position: center;
+}
+
+.fh5co-cover-center.h2-100 h2 {
+  font-size: 100px;
+}
+
 @media screen and (max-width: 768px) {
   .fh5co-cover,
   .fh5co-hero {
@@ -278,7 +286,7 @@ figure {
 }
 
 .sf-menu a {
-  color: rgba(0, 0, 0, 0.5);
+  color: #333;
   padding: 0.75em 1em !important;
   font-weight: normal;
   border-left: none;
@@ -447,7 +455,7 @@ figure {
   font-size: 12px;
   margin-top: -7px;
   content: "\e922";
-  color: rgba(0, 0, 0, 0.5);
+  color: #333;
 }
 #fh5co-primary-menu > li > ul li {
   position: relative;
@@ -470,7 +478,7 @@ figure {
   top: 20px;
   font-size: 12px;
   content: "\e924";
-  color: rgba(0, 0, 0, 0.5);
+  color: #333;
 }
 
 #fh5co-primary-menu .fh5co-sub-menu {
@@ -555,7 +563,7 @@ figure {
 #fh5co-work-section_2,
 #fh5co-blog-section,
 #fh5co-features {
-  padding: 7em 0;
+  padding: 5em 0;
 }
 @media screen and (max-width: 768px) {
   #fh5co-work-section,
@@ -574,7 +582,7 @@ figure {
 
 .heading-section {
   padding-bottom: 1em;
-  margin-bottom: 5em;
+  margin-bottom: 3em;
 }
 .heading-section:after {
   position: absolute;
@@ -772,7 +780,7 @@ figure {
   background: transparent;
 }
 #fh5co-portfolio-list li a:hover:before {
-  background: rgba(0, 0, 0, 0.5);
+  background: #333;
 }
 #fh5co-portfolio-list li a .case-studies-summary {
   width: auto;
@@ -906,11 +914,11 @@ figure {
 }
 
 #fh5co-services, #fh5co-about, #fh5co-contact {
-  padding: 7em 0;
+  padding: 4em 0;
 }
 @media screen and (max-width: 768px) {
   #fh5co-services, #fh5co-about, #fh5co-contact {
-    padding: 4em 0;
+    padding: 2.5em 0;
   }
 }
 
@@ -996,7 +1004,7 @@ figure {
   border-radius: 0px;
 }
 #fh5co-contact .form-control:focus, #fh5co-contact .form-control:active {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  border-bottom: 1px solid #333;
 }
 #fh5co-contact input[type="text"] {
   height: 50px;
@@ -1165,7 +1173,7 @@ figure {
 }
 .fh5co-social-icons > a:hover, .fh5co-social-icons > a:focus, .fh5co-social-icons > a:active {
   text-decoration: none;
-  color: #5a5a5a;
+  color: #333;
 }
 
 #footer {
@@ -1518,4 +1526,78 @@ figure {
   background: url(../images/hourglass.svg) center no-repeat #222222;
 }
 
+.div-parcerias img {
+  max-width: 200px;
+}
+
 /*# sourceMappingURL=style.css.map */
+
+/* EXTRAS - From Bootstrap 4 */
+
+.d-flex {
+  display: flex;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.align-items-stretch {
+  align-items: stretch;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.align-content-center {
+  align-content: center;
+}
+
+.mt-0 {
+  margin-top: 0 !important;
+}
+
+.mt-2 {
+  margin-top: calc(1em * .5) !important;
+}
+
+.mt-5 {
+  margin-top: calc(1em * 2) !important;
+}
+
+.mt-10 {
+  margin-top: calc(1em * 4) !important;
+}
+
+.mr-2 {
+  margin-right: calc(1em * .5) !important;
+}
+
+.mb-2 {
+  margin-bottom: calc(1em * .5) !important;
+}
+
+.mb-5 {
+  margin-bottom: calc(1em * .2) !important;
+}
+
+.mb-10 {
+  margin-bottom: calc(1em * 4) !important;
+}
+
+.ml-2 {
+  margin-left: calc(1em * .5) !important;
+}

@@ -15,31 +15,20 @@ const Header =()=>{
 							<li className="active">
 								<a href="/">Home</a>
 							</li>
-							<li>
+							{/* <li>
 								<a href="#" className="fh5co-sub-ddown">
-									Get Involved <i className="icon-chevron-down"></i>
-								</a>
-								<ul className="fh5co-sub-menu">
-									<li><a href="#">Donate</a></li>
-									<li><a href="#">Fundraise</a></li>
-									<li><a href="#">Campaign</a></li>
-									<li><a href="#">Philantrophy</a></li>
-									<li><a href="#">Volunteer</a></li>
-								</ul>
-							</li>
-							<li>
-								<a href="#" className="fh5co-sub-ddown">
-									Projects <i className="icon-chevron-down"></i>
+									Projetos <i className="icon-chevron-down"></i>
 								</a>
 									<ul className="fh5co-sub-menu">
 									<li><a href="#">Water World</a></li>
 									<li><a href="#">Cloth Giving</a></li>
 									<li><a href="#">Medical Mission</a></li>
 								</ul>
-							</li>
+							</li> */}
+							<li><a href="/project">Projeto</a></li>
 							<li><a href="/blog">Blog</a></li>
-							<li><a href="/about">About</a></li>
-							<li><a href="/contact">Contact</a></li>
+							<li><a href="/about">Sobre nós</a></li>
+							<li><a href="/contact">Contato</a></li>
 						</ul>
 					</nav>
 				</div>
