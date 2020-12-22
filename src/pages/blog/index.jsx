@@ -4,6 +4,8 @@ import Header from "../../components/header";
 import Footer from "../../components/footer/index";
 import BannerIntro from "../../components/bannerIntro";
 
+import instance from "../../api/api.js"
+
 function Blog() {
   return (
     <div id="fh5co-wrapper">
@@ -119,5 +121,9 @@ function Blog() {
     </div>
   );
 }
+
+//const response = instance.get('/posts');
+
+//console.log(response)
 
 export default Blog;
