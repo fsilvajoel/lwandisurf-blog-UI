@@ -1,0 +1,13 @@
+{
+  "BFF_BASE_URL": {
+    "local-des": "http://localhost:8000",
+    "local-prd": "http://localhost:8000",
+    "des": "http://localhost:8000"
+  },
+  "API_BASE_URL": {
+    "local-des": "http://localhost:8000",
+    "local-prd": "http://localhost:8000",
+    "des": "http://localhost:8000",
+    "prd": "http://localhost:8000"
+  }
+}
