@@ -6,10 +6,11 @@ import Footer from "../../components/footer/index";
 import SocialLinks from "../../components/socialLinks";
 import BlogPreview from "../../components/blogPreview";
 import BannerIntro from "../../components/bannerIntro";
-import Gallery from "../../components/gallery";
+import GalleryPreview from "../../components/galleryPreview";
 import Projects from "../../components/projects";
 import Volunteers from "../../components/volunteers";
-import CallBanner from "../../components/callBanner";
+import ContactInfo from "../../components/contactInfo";
+// import CallBanner from "../../components/callBanner";
 
 const Home = () => {
     return (
@@ -18,12 +19,11 @@ const Home = () => {
             <div id="fh5co-page">
                 <SocialLinks />
                 <Header />
+
                 <BannerIntro
                     mainTitle="Lwandisurf"
                     subtitle="Uma onda de esperança"
                     image="images/home-cover.jpg"
-                    buttonContent="Message Button"
-                    btnLink="/"
                     classExtra="fh5co-cover-center h2-100"
                 />
                 {/* <!-- end:header-top --> */}
@@ -67,9 +67,9 @@ const Home = () => {
                     </div>
                 </div>
 
-                <Gallery />
-                <Volunteers />
+                <GalleryPreview />
 
+                <Volunteers />
 
                 <div id="fh5co-services-section">
                     <div className="container">
@@ -84,6 +84,9 @@ const Home = () => {
                 </div>
 
                 <BlogPreview />
+
+                <ContactInfo />
+
                 <Footer />
             </div>
         </div>

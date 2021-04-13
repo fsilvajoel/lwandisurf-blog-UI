@@ -3,9 +3,11 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Home from "../../pages/home/index";
 import Project from "../../pages/project";
 import Blog from "../../pages/blog";
+import BlogPost from "../../pages/blogPost";
 import About from "../../pages/about";
 import Contact from "../../pages/contact";
 import Gallery from "../../pages/gallery";
+import Album from "../../pages/album";
 
 const routeList = [
   {
@@ -27,6 +29,12 @@ const routeList = [
     private: false,
   },
   {
+    path: "/blogPost/:id",
+    component: BlogPost,
+    exact: true,
+    private: false,
+  },
+  {
     path: "/about",
     component: About,
     exact: true,
@@ -41,6 +49,12 @@ const routeList = [
   {
     path: "/gallery",
     component: Gallery,
+    exact: true,
+    private: false,
+  },
+  {
+    path: "/album/:id",
+    component: Album,
     exact: true,
     private: false,
   },
