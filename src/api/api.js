@@ -2,7 +2,7 @@ import React from 'react'
 import axios from 'axios'
 
 const defaultOptions = {
-	baseURL: 'http://localhost:8000',
+	baseURL: 'https://api.lwandisurf.org',
 	headers: {
         'Content-Type': 'application/json'
     }
@@ -14,12 +14,13 @@ async function getToken() {
 
 	const response = await instance.post("/api-auth/", {
 		username: "admin",
-		password: "teste123"
+		password: ""
 	})
 	.then(result => {
 		// Armazenamento da variável token na cache do navegador;
 
 		localStorage['tokenLwandi'] = result.data.token;
+		console.log("Token: " + result.data.token)
 
 		return result;
 	})

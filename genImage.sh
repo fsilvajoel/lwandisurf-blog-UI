@@ -1,4 +1,4 @@
 #!/bin/bash
 
-docker build . -t lwandisurf/node:latest
+docker build . -t lwandisurf/ui-prod:latest
 

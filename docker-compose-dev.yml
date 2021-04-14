@@ -1,0 +1,13 @@
+version: '3.8'
+
+ui:
+  container_name: ui_react
+  hostname: ui_react
+  restart: always
+  image: lwandisurf/node:latest
+  stdin_open: true
+  volumes:
+    - '.:/app'
+    - '/app/node'
+  ports:
+    - "3001:3000"
