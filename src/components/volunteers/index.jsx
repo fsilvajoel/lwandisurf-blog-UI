@@ -19,7 +19,7 @@ function Volunteers() {
           <div className="col-md-4 mt-5">
             <div className="fh5co-testimonial text-center animate-box">
               <figure>
-                <img src="images/foto_gerson.jpg" alt="user" />
+                <img src="images/foto_gerson.jpg" alt="Voluntário Gerson" title="Gerson" />
               </figure>
               <blockquote>
                 <p>
@@ -43,7 +43,7 @@ function Volunteers() {
           <div className="col-md-4 mt-5">
             <div className="fh5co-testimonial text-center animate-box">
               <figure>
-                <img src="images/foto_gabriel.jpg" alt="user" />
+                <img src="images/foto_gabriel.jpg" alt="Voluntário Gabriel" title="Gabriel" />
               </figure>
               <blockquote>
                 <p>
@@ -66,7 +66,7 @@ function Volunteers() {
           <div className="col-md-4 mt-5">
             <div className="fh5co-testimonial text-center animate-box">
               <figure>
-                <img src="images/foto_romulo.jpg" alt="user" />
+                <img src="images/foto_romulo.jpg" alt="Voluntário Rômulo" title="Rômulo"/>
               </figure>
               <blockquote>
                 <p>

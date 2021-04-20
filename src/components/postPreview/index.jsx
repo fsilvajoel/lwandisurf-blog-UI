@@ -7,7 +7,7 @@ function PostPreview({id, title, image, content}) {
         <div className="col-lg-4 col-md-4 col-sm-6">
             <div className="fh5co-blog animate-box">
                 <a href={`/blogPost/${id}`}>
-                    <img className="img-responsive" src={image} alt={title} />
+                    <img className="img-responsive" src={image} alt={title} title={title} />
                 </a>
                 <div className="blog-text">
                     <div className="prod-title">

@@ -117,11 +117,16 @@ function About() {
                     <div className="row div-parcerias">
 
                         <div className="col-md-12 d-flex flex-wrap justify-content-between align-items-center">
-                            <a href="https://www.instagram.com/baleia.solidaria/" target="blank"><img src="images/parceiro1.png" alt=""/></a>
-                            <a href="https://exchangedobem.com/lwandi-surf-mocambique/" target="blank"><img src="images/parceiro2.png" alt=""/></a>
-                            <a href="http://lumenk.com.br/" target="blank"><img src="images/parceiro3.png" alt=""/></a>
-                            <a href="https://intlsurftherapy.org/" target="blank"><img src="images/parceiro4.jpg" alt=""/></a>
-                            <a href="https://www.waves-for-change.org/" target="blank"><img src="images/parceiro5.png" alt=""/></a>
+                            <a href="https://www.instagram.com/baleia.solidaria/" target="blank">
+                                <img src="images/parceiro1.png" alt="Parceiro Baleia Solidaria" title="Baleia Solidaria"/></a>
+                            <a href="https://exchangedobem.com/lwandi-surf-mocambique/" target="blank">
+                                <img src="images/parceiro2.png" alt="Parceiro exchangedobem" title="exchangedobem"/></a>
+                            <a href="http://lumenk.com.br/" target="blank">
+                                <img src="images/parceiro3.png" alt="Parceiro Lumenk" title="Lumenk"/></a>
+                            <a href="https://intlsurftherapy.org/" target="blank">
+                                <img src="images/parceiro4.jpg" alt="Parceiro ISTO" title="International Surf Therapy Organization"/></a>
+                            <a href="https://www.waves-for-change.org/" target="blank">
+                                <img src="images/parceiro5.png" alt="Parceiro Waves for Change" title="Waves for Change"/></a>
                         </div>
 
                     </div>

@@ -22,11 +22,11 @@ const Footer = () => {
                             Copyright 2020 @lwandisurf. All Rights
                             Reserved. <br />
                             Made with <i className="icon-heart3"></i> by{" "}
-                            <a href="http://www.growtechnologies.com.br/" target="_blank">
+                            <a href="https://growtechnologies.com.br/" target="_blank">
                             Growtech
                             </a>{" "}
                             / Template base from:{" "}
-                            <a href="http://freehtml5.co/" target="_blank">
+                            <a href="https://freehtml5.co/" target="_blank">
                             Free Html5
                             </a>
                         </p>
