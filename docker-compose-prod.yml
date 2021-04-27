@@ -1,10 +1,25 @@
 version: '3.8'
 
 services:
-  app-prod:
-    container_name: dockerized-react-app
-    build:
-      context: .
-      dockerfile: Dockerfile
+  lwandi-ui:
+    image: lucasfs/lwandi-ui
+    container_name: lwandi-ui
+    restart: always
+    volumes:
+      - ./log:/var/log/nginx
+    networks:
+      - proxy
+    environment:
+      - VIRTUAL_HOST=lwandisurf.org
+      - VIRTUAL_NETWORK=nginx-proxy
+      - VIRTUAL_PORT=80
+      - LETSENCRYPT_HOST=lwandisurf.org
+      - LETSENCRYPT_EMAIL=admin@growtechnologies.com.br
+
     ports:
-      - '80:80'
+      - "3000:80"
+
+networks:
+  proxy:
+    external:
+      name: nginx-proxy

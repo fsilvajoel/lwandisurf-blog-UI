@@ -14,7 +14,7 @@ async function getToken() {
 
 	const response = await instance.post("/api-auth/", {
 		username: "admin",
-		password: ""
+		password: "@polux397"
 	})
 	.then(result => {
 		// Armazenamento da variável token na cache do navegador;
