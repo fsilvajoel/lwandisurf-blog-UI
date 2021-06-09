@@ -8,6 +8,9 @@ const Footer = () => {
                     <div className="row">
                         <div className="col-md-6 col-md-offset-3 text-center">
                             <p className="fh5co-social-icons">
+                                <a href="https://www.youtube.com/channel/UColVbh23p-lI9Z0HE0ujwiQ" target="_blank" title="Youtube">
+                                    <i className="icon-youtube2"></i>
+                                </a>
                                 <a href="https://linktr.ee/lwandisurf" target="_blank" title="Linktree">
                                     <i className="icon-dribbble2"></i>
                                 </a>

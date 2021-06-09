@@ -14,7 +14,7 @@ function Contact() {
 
                 <BannerIntro
                     mainTitle="Entre em contato"
-                    subtitle="Apoie o projeto via financiamento recorrente pelo Benfeitoria."
+                    subtitle="Apoie o projeto via financiamento recorrente pelo Benfeitoria"
                     image="images/contato-cover.jpg"
                 />
                 

@@ -13,7 +13,7 @@ function About() {
 
             <BannerIntro
                 mainTitle="Sobre nós"
-                subtitle="Lwandisurf - Uma onda de esperança."
+                subtitle="Lwandi Surf - Uma onda de esperança"
                 image="images/about-cover.jpg"
             />
             
@@ -96,11 +96,11 @@ function About() {
 
                                 <div className="col-md-10 col-md-offset-1 text-justify">
                                     <p>
-                                        No Lwandi Surf procuramos parceiros que estejam alinhados com os nossos objetivos, sonhos e ideiais. Nós acreditamos no potencial que os jovens de Ponta do Ouro e Moçambique em geral possuem, bem como na pesquisa e desenvolvimento que a terapia do surfe vem alcançando mundialmente. Muito mais do que apenas doações específicas, valorizamos relações duradouras com outras instituições, ONGs e empresas.
+                                        No Lwandi Surf procuramos parceiros que estejam alinhados com os nossos objetivos, sonhos e ideais. Nós acreditamos no potencial que os jovens de Ponta do Ouro e Moçambique em geral possuem, bem como na pesquisa e desenvolvimento que a terapia do surfe vem alcançando mundialmente. Muito mais do que apenas doações específicas, valorizamos relações duradouras com outras instituições, ONGs e empresas.
                                     </p>
  
                                     <p>
-                                        Sendo um proejto que está recém começando a sua caminhada, possuímos algumas necessidades específicas;
+                                        Sendo um projeto que está recém começando a sua caminhada, possuímos algumas necessidades específicas:
                                     </p>
                                     
                                     <ol>
@@ -116,17 +116,30 @@ function About() {
 
                     <div className="row div-parcerias">
 
-                        <div className="col-md-12 d-flex flex-wrap justify-content-between align-items-center">
+                        <div className="col-md-12 d-flex flex-wrap justify-content-evenly align-items-center">
                             <a href="https://www.instagram.com/baleia.solidaria/" target="blank">
                                 <img src="images/parceiro1.png" alt="Parceiro Baleia Solidaria" title="Baleia Solidaria"/></a>
+                            
                             <a href="https://exchangedobem.com/lwandi-surf-mocambique/" target="blank">
                                 <img src="images/parceiro2.png" alt="Parceiro exchangedobem" title="exchangedobem"/></a>
+                            
                             <a href="http://lumenk.com.br/" target="blank">
                                 <img src="images/parceiro3.png" alt="Parceiro Lumenk" title="Lumenk"/></a>
+                            
                             <a href="https://intlsurftherapy.org/" target="blank">
                                 <img src="images/parceiro4.jpg" alt="Parceiro ISTO" title="International Surf Therapy Organization"/></a>
+                            
                             <a href="https://www.waves-for-change.org/" target="blank">
                                 <img src="images/parceiro5.png" alt="Parceiro Waves for Change" title="Waves for Change"/></a>
+                            
+                            <a href="https://www.facebook.com/UnderWaterExplorerPontadoOuro/" target="blank">
+                                <img src="images/parceiro6.jpg" alt="Parceiro Under Water Explorer Mozambique" title="Under Water Explorer Mozambique"/></a>
+
+                            <a href="https://querodobra.com.br/blog/lwandi-surf-uma-onda-de-esperanca/" target="blank">
+                                <img src="images/parceiro7.png" alt="Parceiro Dobra" title="Dobra"/></a>
+
+                            <a href="http://www.mozambiquescuba.com/" target="blank">
+                                <img src="images/parceiro8.jpg" alt="Parceiro Mozambique Scuba" title="Mozambique Scuba"/></a>
                         </div>
 
                     </div>

@@ -61,7 +61,7 @@ function Projects() {
 					</span>
 					<h3>Rodas de Conversa</h3>
 					<p>
-						As rodas de conversa trazem uma proposta de educação fora da escola, buscando assuntos da vida e debatendo possíveis problemas e situações que os participantes estejam passando. Acontecem antes da prática do surfe, propondo uma conversa aberta entre todos, abordando temas que normalmente não são ensinados, além de criar uma união do grupo
+						As rodas de conversa trazem uma proposta de educação fora da escola, buscando assuntos da vida e debatendo possíveis problemas e situações que os participantes estejam passando. Acontecem mensalmente, propondo uma conversa aberta entre todos, abordando temas que normalmente não são ensinados, além de criar uma união do grupo.
 					</p>
 				</div>
 			</div>
@@ -73,7 +73,7 @@ function Projects() {
 					</span>
 					<h3>Aulas de Inglês</h3>
 					<p>
-						O inglês é uma habilidade para a vida que fornece acesso à comunicação no ensino superior em todo o mundo e melhores condições no mercado de trabalho. As aulas de inglês ajudam a reforçar o conteúdo abordado no currículo escolar, melhorando o uso conversacional do idioma. Ponta do Ouro é um destino predominantemente turístico e muitos de nossos participantes já se envolvem em atividades empreendedoras para sustentar suas famílias. O uso do inglês nesse contexto é útil para se conectar com os turistas
+						O inglês é uma habilidade para a vida que fornece acesso à comunicação no ensino superior em todo o mundo e melhores condições no mercado de trabalho. As aulas de inglês ajudam a reforçar o conteúdo abordado no currículo escolar, melhorando o uso conversacional do idioma. Ponta do Ouro é um destino predominantemente turístico e muitos de nossos participantes já se envolvem em atividades empreendedoras para sustentar suas famílias. O uso do inglês nesse contexto é útil para se conectar com os turistas.
 					</p>
 				</div>
 			</div>
@@ -81,11 +81,11 @@ function Projects() {
 			<div className="col-md-4 col-sm-4 d-flex align-items-stretch">
 				<div className="services animate-box">
 					<span>
-						<i className="icon-credit"></i>
+						<i className="icon-palette"></i>
 					</span>
-					<h3>Empreendedorismo e Educação Financeira básica</h3>
+					<h3>Atividades artísticas e culturais</h3>
 					<p>
-						Essas aulas visam fornecer aos participantes habilidades básicas de gestão e o conhecimento básico como lidar com o próprio dinheiro (ou como dizem em Ponta do Ouro, manejar o “taco”). O empreendedorismo pretende expandir as possibilidades de negócios e gestão de carreira dos participantes do Lwandi Surf.
+						De aulas de teatro a oficinas de canto e dança tradicional moçambicana, reconhecemos a importância e excelentes frutos que esses tipos de atividades trazem para o desenvolvimento pessoal e cultura dos participantes.
 					</p>
 				</div>
 			</div>

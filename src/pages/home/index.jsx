@@ -21,7 +21,7 @@ const Home = () => {
                 <Header />
 
                 <BannerIntro
-                    mainTitle="Lwandisurf"
+                    mainTitle="Lwandi Surf"
                     subtitle="Uma onda de esperança"
                     image="images/home-cover.jpg"
                     classExtra="fh5co-cover-center h2-100"
@@ -33,7 +33,7 @@ const Home = () => {
                     <div className="container">
                         <div className="row">
                             <div className="col-md-12 text-center heading-section">
-                                <h3>Missão, visão e valores.</h3>
+                                <h3>Missão, visão e valores</h3>
                             </div>
                         </div>
                         <div className="row">
@@ -50,7 +50,7 @@ const Home = () => {
                                 <div className="feature-text">
                                     <h3>Valores</h3>
                                     <p>
-                                        Os nosso valores foram criados junto com a primeira turma durante uma roda de conversa. E o surfe não poderia faltar: <b>S</b>onhar grande, <b>U</b>nião, <b>R</b>espeito, <b>F</b>elicidade e <b>E</b>mpatia.
+                                        Os nosso valores foram criados junto com a primeira turma durante uma roda de conversa. E o surfe não poderia faltar: <b>S</b>onhar grande, <b>U</b>nião, <b>R</b>espeito, <b>F</b>elicidade, <b>E</b>mpatia, <b>É</b>tica e <b>T</b>ransparência.
                                     </p>
                                 </div>
                             </div>

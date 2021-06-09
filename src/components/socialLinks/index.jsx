@@ -13,6 +13,9 @@ function SocialLinks() {
                         <a href="#">Contact</a> */}
                     </div>
                     <div className="col-md-6 col-sm-6 text-right fh5co-social">
+                        <a href="https://www.youtube.com/channel/UColVbh23p-lI9Z0HE0ujwiQ" className="grow" title="Youtube">
+                            <i className="icon-youtube2"></i>
+                        </a>
                         <a href="https://linktr.ee/lwandisurf" className="grow" title="Linktree">
                             <i className="icon-dribbble2"></i>
                         </a>

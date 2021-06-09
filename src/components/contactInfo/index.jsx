@@ -18,12 +18,18 @@ function ContactInfo({id, title, image}) {
                         <h4>
                             <i className="icon-instagram mr-2"></i> 
                             Siga nosso perfil no
-                            <a href="https://www.instagram.com/lwandisurf/?hl=en">Instagram @lwandisurf <i className="icon-link"></i></a>
+                            <a href="https://www.instagram.com/lwandisurf/?hl=en"> Instagram @lwandisurf <i className="icon-link"></i></a>
                         </h4>
                         <h4>
                             <i className="icon-facebook2 mr-2"></i> 
                             Curta nossa página no
-                            <a href="https://www.instagram.com/lwandisurf/?hl=en">Facebook @lwandisurf <i className="icon-link"></i></a>
+                            <a href="https://www.instagram.com/lwandisurf/?hl=en"> Facebook @lwandisurf <i className="icon-link"></i></a>
+                        </h4>
+
+                        <h4>
+                            <i className="icon-youtube mr-2"></i> 
+                            Siga nosso canal no 
+                            <a href="https://www.youtube.com/channel/UColVbh23p-lI9Z0HE0ujwiQ"> Youtube Lwandi TV <i className="icon-link"></i></a>
                         </h4>
                     </div>
 
@@ -36,11 +42,11 @@ function ContactInfo({id, title, image}) {
                             <h4>
                                 <i className="icon-coin-dollar mr-2"></i> 
                                 Financiamento Recorrente via
-                                <a href="https://benfeitoria.com/lwandisurf">Benfeitoria <i className="icon-link"></i></a>
+                                <a href="https://benfeitoria.com/lwandisurf"> Benfeitoria <i className="icon-link"></i></a>
                             </h4>
                             <h4>
                                 <i className="icon-tag2 mr-2"></i> 
-                                Dobra e Lwandisurf -
+                                Dobra e Lwandi Surf -
                                 <a href="https://querodobra.com.br/colab/lwandi-surf/"> Produtos <i className="icon-link"></i></a>
                             </h4>
                             <h4>
@@ -51,7 +57,7 @@ function ContactInfo({id, title, image}) {
                             <h4>
                                 <i className="icon-support mr-2"></i> 
                                 Seja um voluntário via
-                                <a href="https://exchangedobem.com/lwandi-surf-mocambique/">Exchange do Bem <i className="icon-link"></i></a>
+                                <a href="https://exchangedobem.com/lwandi-surf-mocambique/"> Exchange do Bem <i className="icon-link"></i></a>
                             </h4>
                         </div>
                     </div>
