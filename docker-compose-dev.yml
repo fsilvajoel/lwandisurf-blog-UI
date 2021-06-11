@@ -1,13 +1,18 @@
-version: '3.8'
+version: '3.3'
 
-ui:
-  container_name: ui_react
-  hostname: ui_react
-  restart: always
-  image: lwandisurf/node:latest
-  stdin_open: true
-  volumes:
-    - '.:/app'
-    - '/app/node'
-  ports:
-    - "3001:3000"
+services:
+  react-lwandi:
+    container_name: react-lwandi
+    hostname: react-lwandi
+    restart: always
+    stdin_open: true
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    volumes:
+        - '.:/app'
+        - '/app/node_modules'
+    ports:
+      - target: 3000
+        published: 3000
+        mode: host
