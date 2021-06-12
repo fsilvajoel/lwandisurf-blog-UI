@@ -29,7 +29,7 @@ const routeList = [
     private: false,
   },
   {
-    path: "/blogPost/:id",
+    path: "/blog/:slug",
     component: BlogPost,
     exact: true,
     private: false,
