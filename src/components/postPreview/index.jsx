@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-function PostPreview({ slug, title, image, content }) {
+function PostPreview({ id, slug, title, image, content }) {
   content = content.replace(/<\/?[^>]+(>|$)/g, "");
 
   return (

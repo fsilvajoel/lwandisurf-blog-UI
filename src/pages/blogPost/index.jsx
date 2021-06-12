@@ -8,12 +8,11 @@ import { getPost } from "../../api/api.js";
 
 function BlogPost({ match }) {
   const [post, setPost] = useState([]);
-
   useEffect(() => {
-    getPost(match.params.id).then((payload) => {
+    getPost(match.params.slug).then((payload) => {
       setPost(payload);
     });
-  }, [match.params.id]);
+  }, [match.params.slug]);
 
   let date = new Date(post.created);
   date =

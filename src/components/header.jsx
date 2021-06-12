@@ -47,16 +47,6 @@ function Header({ page = "home" }) {
                   Contato
                 </a>
               </li>
-              {/* <li>
-								<a href="#" className="fh5co-sub-ddown">
-									Projetos <i className="icon-chevron-down"></i>
-								</a>
-									<ul className="fh5co-sub-menu">
-									<li><a href="#">Water World</a></li>
-									<li><a href="#">Cloth Giving</a></li>
-									<li><a href="#">Medical Mission</a></li>
-								</ul>
-							</li> */}
             </ul>
           </nav>
         </div>
