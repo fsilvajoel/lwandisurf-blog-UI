@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import slugify from "slugify";
 function PostPreview({ slug, title, image, content }) {
   content = content.replace(/<\/?[^>]+(>|$)/g, "");
 
