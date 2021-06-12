@@ -1,0 +1,4 @@
+nginx/
+.vscode/
+my_nginx.conf
+nginx.conf

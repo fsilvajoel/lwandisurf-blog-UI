@@ -10,7 +10,7 @@ function Contact() {
         <div id="fh5co-wrapper">
             <div id="fh5co-page">
                 <SocialLinks />
-                <Header />
+                <Header page="contact" />
 
                 <BannerIntro
                     mainTitle="Entre em contato"

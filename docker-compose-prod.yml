@@ -15,7 +15,6 @@ services:
       - VIRTUAL_PORT=80
       - LETSENCRYPT_HOST=lwandisurf.org
       - LETSENCRYPT_EMAIL=admin@growtechnologies.com.br
-
     ports:
       - "3000:80"
 

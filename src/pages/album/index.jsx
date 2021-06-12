@@ -26,7 +26,7 @@ function Album({match}) {
         <div id="fh5co-wrapper">
             <div id="fh5co-page">
                 <SocialLinks />
-                <Header />
+                <Header page="gallery" />
 
                 <div id="fh5co-blog-section" className="fh5co-section-gray">
 

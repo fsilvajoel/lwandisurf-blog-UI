@@ -18,7 +18,7 @@ const Home = () => {
         <div id="fh5co-wrapper">
             <div id="fh5co-page">
                 <SocialLinks />
-                <Header />
+                <Header page="home" />
 
                 <BannerIntro
                     mainTitle="Lwandi Surf"

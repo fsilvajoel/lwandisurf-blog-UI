@@ -19,7 +19,7 @@ function Galery() {
 		<div id="fh5co-wrapper">
             <div id="fh5co-page">
                 <SocialLinks />
-                <Header />
+                <Header page="gallery" />
 
                 <BannerIntro
                     mainTitle="Galeria de fotos"
