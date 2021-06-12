@@ -21,7 +21,7 @@ function BlogPost({match}) {
         <div id="fh5co-wrapper">
             <div id="fh5co-page">
                 <SocialLinks />
-                <Header />
+                <Header page="blog" />
                 
                 <BannerIntro
                     mainTitle={post.title}

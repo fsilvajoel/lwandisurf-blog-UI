@@ -10,7 +10,7 @@ function Project() {
     <div id="fh5co-wrapper">
         <div id="fh5co-page">
             <SocialLinks />
-            <Header />
+            <Header page="project" />
 
             <BannerIntro
                 mainTitle="Nossos projetos"

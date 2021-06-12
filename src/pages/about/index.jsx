@@ -9,7 +9,7 @@ function About() {
     <div id="fh5co-wrapper">
         <div id="fh5co-page">
             <SocialLinks />
-            <Header />
+            <Header page="about" />
 
             <BannerIntro
                 mainTitle="Sobre nós"
