@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const defaultOptions = {
-  baseURL: "https://api.lwandisurf.org",
+  baseURL: process.env.REACT_APP_URL_SERVER_BASE,
   headers: {
     "Content-Type": "application/json",
   },
@@ -12,8 +12,8 @@ let instance = axios.create(defaultOptions);
 async function getToken() {
   const response = await instance
     .post("/api-auth/", {
-      username: "admin",
-      password: "@polux397",
+      username: process.env.REACT_APP_USER_SERVER,
+      password: process.env.REACT_APP_USER_PASS,
     })
     .then((result) => {
       localStorage["tokenLwandi"] = result.data.token;
@@ -42,8 +42,8 @@ export async function getPosts(recents = false) {
   return posts;
 }
 
-export async function getPost(id) {
-  let response = await instance.get(`/posts/${id}`);
+export async function getPost(slug) {
+  let response = await instance.get(`/posts/${slug}`);
   return response.data;
 }
 
