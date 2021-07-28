@@ -1595,6 +1595,18 @@ figure {
   max-width: 200px;
 }
 
+.div-parcerias a {
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.feature-left-center {
+  display: flex;
+  justify-content: center;
+}
+
 /* EXTRAS - From Bootstrap 4 */
 
 .d-flex {
@@ -1631,6 +1643,10 @@ figure {
 
 .align-content-center {
   align-content: center;
+}
+
+.m-15 {
+  margin: 15px !important;
 }
 
 .mt-0 {

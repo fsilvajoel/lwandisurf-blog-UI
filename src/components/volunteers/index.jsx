@@ -15,8 +15,8 @@ function Volunteers() {
       </div>
 
       <div className="container">
-        <div className="row d-flex justify-content-center">
-          <div className="col-md-4 mt-5">
+        <div className="row d-flex flex-wrap justify-content-center">
+          <div className="col-sm-12 col-md-5 mt-5">
             <div className="fh5co-testimonial text-center animate-box">
               <figure>
                 <img src="images/foto_andrea.jpg" alt="Voluntária Andrea" title="Andrea" />
@@ -32,7 +32,7 @@ function Volunteers() {
               <span>Andrea Williams</span>
             </div>
           </div>
-          <div className="col-md-4 mt-5">
+          <div className="col-sm-12 col-md-5 mt-5">
             <div className="fh5co-testimonial text-center animate-box">
               <figure>
                 <img src="images/foto_michela.jpg" alt="Voluntário Michela" title="Michela" />
@@ -42,7 +42,7 @@ function Volunteers() {
                   "Ser voluntária da Lwandi Surf foi uma experiência incrível, e sou muito grata pelo meu tempo com eles. 
                   Gabriel e Rômulo são apaixonados pelo que fazem, sua energia e ética de trabalho também refletem isso. 
                   Adorei me envolver com as crianças através da yoga, aulas de inglês, atividades em grupos e aulas de natação, 
-                  além de aprender mais sobre a cultura e terapia do surfe. Obrigado por esta oportunidade."
+                  além de aprender mais sobre a cultura e terapia do surfe. Obrigada por esta oportunidade."
                 </p>
               </blockquote>
               <span>Michela Gordan</span>

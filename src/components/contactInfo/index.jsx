@@ -5,8 +5,8 @@ function ContactInfo({ id, title, image }) {
     <div id="fh5co-contact" className="fh5co-content-section">
       <div className="container">
         <div className="row">
-          <div className="col-md-8">
-            <div class="col-md-12 text-center heading-section">
+          <div className="col-md-7">
+            <div className="col-md-12 text-center heading-section">
               <h3>Endereço e Redes</h3>
             </div>
 
@@ -43,12 +43,11 @@ function ContactInfo({ id, title, image }) {
             </h4>
           </div>
 
-          <div className="col-md-4">
-            <div class="col-md-12 text-center heading-section">
+          <div className="col-md-5">
+            <div className="col-md-12 text-center heading-section">
               <h3>Como ajudar?</h3>
             </div>
 
-            <div class="row">
               <h4>
                 <i className="icon-coin-dollar mr-2"></i>
                 Financiamento Recorrente via
@@ -81,7 +80,6 @@ function ContactInfo({ id, title, image }) {
                   Exchange do Bem <i className="icon-link"></i>
                 </a>
               </h4>
-            </div>
           </div>
         </div>
       </div>

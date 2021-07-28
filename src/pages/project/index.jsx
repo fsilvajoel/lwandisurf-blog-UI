@@ -19,7 +19,7 @@ function Project() {
             />
 
             <div id="fh5co-about" className="fh5co-content-section container">
-                <div className="row">
+                <div className="row m-15">
                     <div className="col-md-10 col-md-offset-1 mb-10 text-justify">
                         <p>“Lwandi” é uma palavra inspirada na língua local – Xichangana – o qual traz o significado de “mar”. Assim como deve ser para você, o mar é um local de refúgio e reflexão que traz curas terapêuticas para o ser humano. O projeto Lwandi Surf, localizado em Ponta do Ouro – Moçambique, visa trabalhar, através de atividades que promovam saúde física e mental e ações educacionais, com crianças e jovens locais da cidade que se encontram em situações de vulnerabilidade social.</p>
                         
@@ -29,15 +29,15 @@ function Project() {
                     </div>
                 </div>
 
-                <div className="row">
+                <div className="row m-15">
                     <div className="text-center animate-box">
-                        <div class="col-md-12 text-center heading-section">
+                        <div className="col-md-12 text-center heading-section">
                             <h3>Nossas Atividades</h3>
                         </div>
                     </div>
                 </div>
 
-                <div className="row">
+                <div className="row m-15">
                     <Projects />
                 </div>
             </div>
