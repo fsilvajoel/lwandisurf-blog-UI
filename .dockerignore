@@ -1,4 +1,7 @@
-nginx/
 .vscode/
-my_nginx.conf
-nginx.conf
+Makefile
+Dockerfile.dev
+.editorconfig
+.gitgnore
+docker-compose-dev.yml
+docker-compose-prod.yml

@@ -30,3 +30,7 @@ logs:
 # Show stack real time logs 
 logs-f:
 	docker-compose -f docker-compose-dev.yml logs --follow
+
+# Build prod React Docker Image
+react-build:
+	docker build . -f Dockerfile.prod -t lucasfs/lwandi-ui:latest
