@@ -10,7 +10,7 @@ import GalleryPreview from "../../components/galleryPreview";
 import Projects from "../../components/projects";
 import Volunteers from "../../components/volunteers";
 import ContactInfo from "../../components/contactInfo";
-
+import useTranslation from "../../i18n/translator";
 const Home = () => {
   return (
     <>
@@ -30,13 +30,17 @@ const Home = () => {
             <div className="container">
               <div className="row">
                 <div className="col-md-12 text-center heading-section">
-                  <h3>Missão, visão e valores</h3>
+                  <h3>
+                    {useTranslation("home.missionValueVision.title")}
+                  </h3>
                 </div>
               </div>
               <div className="row">
                 <div className="col-md-4">
                   <div className="feature-text">
-                    <h3>Missão</h3>
+                  <h3>
+                    {useTranslation("home.missionValueVision.mission")}
+                  </h3>
                     <p>
                       Criar um espaço seguro para que adolescentes em situação
                       de vulnerabilidade social se envolvam em atividades que
@@ -47,14 +51,18 @@ const Home = () => {
                 </div>
                 <div className="col-md-4">
                   <div className="feature-text">
-                    <h3>Visão</h3>
+                  <h3>
+                    {useTranslation("home.missionValueVision.vision")}
+                  </h3>
                     <p>Conectando a comunidade através do surfe.</p>
                   </div>
                 </div>
 
                 <div className="col-md-4">
                   <div className="feature-text">
-                    <h3>Valores</h3>
+                  <h3>
+                    {useTranslation("home.missionValueVision.values")}
+                  </h3>
                     <p>
                       Os nosso valores foram criados junto com a primeira turma
                       durante uma roda de conversa. E o surfe não poderia
