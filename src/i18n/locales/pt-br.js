@@ -7,12 +7,12 @@ export default {
         buttonTxt: 'Apoie o projeto'
       },
       missionValueVision: {
-        title: "Mission, vision and values",
-        mission: "Mission",
+        title: "Missão Visão Valores",
+        mission: "Missão",
         missionDescription: "lorem Ipsum",
-        vision: "Vision", 
+        vision: "Visão", 
         visionDescription: "lorem Ipsum", 
-        values: "Values",
+        values: "Valores",
         valuesDescription: "lorem Ipsum",
       },
       galery:{

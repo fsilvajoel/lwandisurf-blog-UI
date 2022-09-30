@@ -1,4 +1,5 @@
 import React from "react";
+import TranslateMenu from "./translateMenu";
 
 function Header({ page = "home" }) {
   return (
@@ -37,6 +38,7 @@ function Header({ page = "home" }) {
                         </li>
                     </ul>
                 </nav>
+                <TranslateMenu/>
             </div>
         </div>
     </header>
