@@ -12,6 +12,7 @@ const Footer = () => {
                   href="https://www.youtube.com/channel/UColVbh23p-lI9Z0HE0ujwiQ"
                   target="_blank"
                   title="Youtube"
+                  rel="noopener noreferrer"
                 >
                   <i className="icon-youtube2"></i>
                 </a>
@@ -19,6 +20,7 @@ const Footer = () => {
                   href="https://linktr.ee/lwandisurf"
                   target="_blank"
                   title="Linktree"
+                  rel="noopener noreferrer"
                 >
                   <i className="icon-dribbble2"></i>
                 </a>
@@ -26,6 +28,7 @@ const Footer = () => {
                   href="https://www.facebook.com/lwandisurf/"
                   target="_blank"
                   title="Facebook"
+                  rel="noopener noreferrer"
                 >
                   <i className="icon-facebook2"></i>
                 </a>
@@ -33,6 +36,7 @@ const Footer = () => {
                   href="https://www.instagram.com/lwandisurf/"
                   target="_blank"
                   title="Instagram"
+                  rel="noopener noreferrer"
                 >
                   <i className="icon-instagram"></i>
                 </a>
@@ -40,11 +44,11 @@ const Footer = () => {
               <p>
                 Copyright 2020 @lwandisurf. All Rights Reserved. <br />
                 Made with <i className="icon-heart3"></i> by{" "}
-                <a href="https://growtechnologies.com.br/" target="_blank">
+                <a href="https://growtechnologies.com.br/" target="_blank" rel="noopener noreferrer">
                   Growtech
                 </a>{" "}
                 / Template base from:{" "}
-                <a href="https://freehtml5.co/" target="_blank">
+                <a href="https://freehtml5.co/" target="_blank" rel="noopener noreferrer">
                   Free Html5
                 </a>
               </p>

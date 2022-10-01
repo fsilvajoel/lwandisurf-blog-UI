@@ -11,7 +11,11 @@ import Projects from "../../components/projects";
 import Volunteers from "../../components/volunteers";
 import ContactInfo from "../../components/contactInfo";
 import useTranslation from "../../i18n/translator";
+
 const Home = () => {
+  const title = useTranslation("home.banner.title");
+  const subTitle = useTranslation("home.banner.subtitle")
+
   return (
     <>
       <div id="fh5co-wrapper">
@@ -20,8 +24,8 @@ const Home = () => {
           <Header page="home" />
 
           <BannerIntro
-            mainTitle="Lwandi Surf"
-            subtitle="Uma onda de esperança"
+            mainTitle={ title }
+            subtitle={ subTitle }
             image="images/home-cover.jpg"
             classExtra="fh5co-cover-center h2-100"
           />
@@ -42,10 +46,7 @@ const Home = () => {
                     {useTranslation("home.missionValueVision.mission")}
                   </h3>
                     <p>
-                      Criar um espaço seguro para que adolescentes em situação
-                      de vulnerabilidade social se envolvam em atividades que
-                      melhorem seu bem-estar físico e mental, assim como
-                      habilidades acadêmicas e vocacionais.
+                      { useTranslation("home.missionValueVision.missionDescription") }
                     </p>
                   </div>
                 </div>
@@ -54,7 +55,7 @@ const Home = () => {
                   <h3>
                     {useTranslation("home.missionValueVision.vision")}
                   </h3>
-                    <p>Conectando a comunidade através do surfe.</p>
+                    <p>{ useTranslation("home.missionValueVision.visionDescription")}</p>
                   </div>
                 </div>
 
@@ -64,11 +65,7 @@ const Home = () => {
                     {useTranslation("home.missionValueVision.values")}
                   </h3>
                     <p>
-                      Os nosso valores foram criados junto com a primeira turma
-                      durante uma roda de conversa. E o surfe não poderia
-                      faltar: <b>S</b>onhar grande, <b>U</b>nião, <b>R</b>
-                      espeito, <b>F</b>elicidade, <b>E</b>mpatia, <b>É</b>tica e{" "}
-                      <b>T</b>ransparência.
+                      { useTranslation("home.missionValueVision.valuesDescription")}
                     </p>
                   </div>
                 </div>
@@ -84,11 +81,12 @@ const Home = () => {
             <div className="container">
               <div className="row">
                 <div className="col-md-6 col-md-offset-3 text-center heading-section animate-box">
-                  <h3>Nossos Projetos</h3>
+                  <h3>{ useTranslation("projects.title") }</h3>
                 </div>
               </div>
 
               <Projects />
+
             </div>
           </div>
 
@@ -102,4 +100,5 @@ const Home = () => {
     </>
   );
 };
+
 export default Home;

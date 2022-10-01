@@ -1,5 +1,6 @@
 import React from "react";
 import TranslateMenu from "./translateMenu";
+import useTranslation from "../i18n/translator"
 
 function Header({ page = "home" }) {
   return (
@@ -7,7 +8,7 @@ function Header({ page = "home" }) {
         <div className="container">
             {/* { this.props.children } */}
             <div className="nav-header">
-                <a href="#" className="js-fh5co-nav-toggle fh5co-nav-toggle dark">
+                <a href="!#" className="js-fh5co-nav-toggle fh5co-nav-toggle dark">
                     <i></i>
                 </a>
                 <h1 id="fh5co-logo">
@@ -22,23 +23,25 @@ function Header({ page = "home" }) {
                             <a href="/" title="Home">Home</a>
                         </li>
                         <li className={`${page === "project" ? "active" : ""}`}>
-                            <a href="/project" title="Projeto">Projeto</a>
+                            <a href="/project" title="Projeto">{ useTranslation("topMenu.project") }</a>
                         </li>
                         <li className={`${page === "blog" ? "active" : ""}`}>
                             <a href="/blog" title="Blog">Blog</a>
                         </li>
                         <li className={`${page === "gallery" ? "active" : ""}`}>
-                            <a href="/gallery" title="Galeria">Galeria</a>
+                            <a href="/gallery" title="Galeria">{ useTranslation("topMenu.gallery") }</a>
                         </li>
                         <li className={`${page === "about" ? "active" : ""}`}>
-                            <a href="/about" title="Sobre nós">Sobre nós</a>
+                            <a href="/about" title="Sobre nós">{ useTranslation("topMenu.about") }</a>
                         </li>
                         <li className={`${page === "contact" ? "active" : ""}`}>
-                            <a href="/contact" title="Contato">Contato</a>
+                            <a href="/contact" title="Contato">{ useTranslation("topMenu.contact") }</a>
                         </li>
                     </ul>
                 </nav>
+                
                 <TranslateMenu/>
+                
             </div>
         </div>
     </header>

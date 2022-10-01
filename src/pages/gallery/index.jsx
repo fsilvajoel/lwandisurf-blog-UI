@@ -4,7 +4,7 @@ import Header from "../../components/header";
 import Footer from "../../components/footer/index";
 import BannerIntro from "../../components/bannerIntro";
 import AlbumPreview from "../../components/albumPreview";
-
+import useTranslation from "../../i18n/translator"
 import { getAlbums } from "../../api/api.js";
 
 function Galery() {
@@ -15,6 +15,8 @@ function Galery() {
         getAlbums().then((payload) => {setAlbums(payload)});
 	}, []);
 
+    const title = useTranslation("gallery.title")
+
 	return (
 		<div id="fh5co-wrapper">
             <div id="fh5co-page">
@@ -22,7 +24,7 @@ function Galery() {
                 <Header page="gallery" />
 
                 <BannerIntro
-                    mainTitle="Galeria de fotos"
+                    mainTitle={title}
                     subtitle=""
                     image="images/galeria4.jpg"
                 />
@@ -31,7 +33,7 @@ function Galery() {
                     <div className="container">
                         <div className="row">
                             <div className="col-md-8 col-md-offset-2 text-center heading-section animate-box fadeInUp animated">
-                                <h3>Nossos albums</h3>
+                                <h3>{ useTranslation("gallery.text") }</h3>
                             </div>
                         </div>
                     </div>

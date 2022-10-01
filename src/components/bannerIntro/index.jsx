@@ -1,4 +1,5 @@
 import React from "react";
+import useTranslation from "../../i18n/translator"
 
 function BannerIntro({ mainTitle, subtitle, image, buttonContent, btnLink, classExtra}) {
     return (
@@ -14,7 +15,7 @@ function BannerIntro({ mainTitle, subtitle, image, buttonContent, btnLink, class
                     <span>{subtitle}</span>
                     <span>
                         <a className="btn btn-primary btn-lg" href="https://benfeitoria.com/lwandisurf" target="blank">
-                            Apoie o projeto
+                            { useTranslation("home.banner.buttonTxt") }
                         </a>
                     </span>
                 </div>

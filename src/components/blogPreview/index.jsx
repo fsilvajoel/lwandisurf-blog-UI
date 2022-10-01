@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import PostPreview from "../../components/postPreview";
-
+import useTranslation from "../../i18n/translator"
 import { getPosts } from "../../api/api.js";
 
 function BlogPreview() {
@@ -17,7 +17,7 @@ function BlogPreview() {
       <div className="container">
         <div className="row">
           <div className="col-md-8 col-md-offset-2 text-center heading-section animate-box">
-            <h3>Postagens recentes do Blog</h3>
+            <h3>{ useTranslation("home.BlogSection.title") }</h3>
           </div>
         </div>
       </div>
@@ -43,7 +43,7 @@ function BlogPreview() {
           <div className="col-md-4 col-md-offset-4 text-center animate-box">
             <a href="/blog" className="btn btn-primary btn-lg" title="Blog">
               {" "}
-              Nosso blog
+              { useTranslation("home.BlogSection.buttonTxt") }
             </a>
           </div>
         </div>

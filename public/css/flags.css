@@ -1,0 +1,13 @@
+.us {
+	background: url(../images/us.svg);
+	width: 31px;
+	height: 23px;
+	border: none;
+}
+
+.br {
+	background: url(../images/br.svg);
+	width: 31px;
+	height: 23px;
+	border: none;
+}

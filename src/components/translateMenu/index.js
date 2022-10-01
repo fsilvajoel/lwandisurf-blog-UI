@@ -8,13 +8,9 @@ const TranslateMenu = () => {
   }
   return (
     <div className="flags-container">
-      <button
-        onClick={() => handleChangeLanguage('pt-BR')}
-      >
-        PT-BR</button>
-      <button
-        onClick={() => handleChangeLanguage('en-US')}
-      >EN-US</button>
+      <button class="br" onClick={() => handleChangeLanguage('pt-BR')}></button>
+      {" "}
+      <button class="us" onClick={() => handleChangeLanguage('en-US')}></button>
     </div>
   )
 }

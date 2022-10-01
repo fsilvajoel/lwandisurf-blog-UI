@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import AlbumPreview from "../../components/albumPreview";
-
 import { getAlbums } from "../../api/api.js";
+import useTranslation from "../../i18n/translator";
 
 function GalleryPreview() {
 
@@ -16,7 +16,7 @@ function GalleryPreview() {
             <div className="container">
                 <div className="row">
                     <div className="col-md-8 col-md-offset-2 text-center heading-section animate-box">
-                        <h3>Albuns recentes da Galeria</h3>
+                        <h3>{ useTranslation("home.galery.title") }</h3>
                     </div>
                 </div>
             </div>
@@ -41,7 +41,7 @@ function GalleryPreview() {
 
                 <div className="row">
                     <div className="col-md-4 col-md-offset-4 text-center animate-box">
-                        <a href="/gallery" className="btn btn-primary btn-lg"> Nossa galeria</a>
+                        <a href="/gallery" className="btn btn-primary btn-lg"> {useTranslation("home.galery.buttonTxt")}</a>
                     </div>
                 </div>
             </div>

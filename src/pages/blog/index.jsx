@@ -4,7 +4,7 @@ import Header from "../../components/header";
 import Footer from "../../components/footer/index";
 import BannerIntro from "../../components/bannerIntro";
 import PostPreview from "../../components/postPreview";
-
+import useTranslation from "../../i18n/translator"
 import { getPosts } from "../../api/api.js";
 
 function Blog() {
@@ -33,7 +33,7 @@ function Blog() {
           <div className="container">
             <div className="row">
               <div className="col-md-8 col-md-offset-2 text-center heading-section animate-box fadeInUp animated">
-                <h3>Leia. Aprenda. Compartilhe</h3>
+                <h3>{ useTranslation("blog.text") }</h3>
               </div>
             </div>
           </div>
