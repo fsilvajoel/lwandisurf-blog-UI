@@ -7,7 +7,7 @@ const TranslateMenu = () => {
     i18n.changeLanguage(language)
   }
   return (
-    <div className="flags-container">
+    <div className="flags-container" style={{padding: '12px 0'}}>
       <button class="br" onClick={() => handleChangeLanguage('pt-BR')}></button>
       {" "}
       <button class="us" onClick={() => handleChangeLanguage('en-US')}></button>

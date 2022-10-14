@@ -8,7 +8,7 @@ function Header({ page = "home" }) {
         <div className="container">
             {/* { this.props.children } */}
             <div className="nav-header">
-                <a href="!#" className="js-fh5co-nav-toggle fh5co-nav-toggle dark">
+                <a href="#" className="js-fh5co-nav-toggle fh5co-nav-toggle dark">
                     <i></i>
                 </a>
                 <h1 id="fh5co-logo">
@@ -37,11 +37,12 @@ function Header({ page = "home" }) {
                         <li className={`${page === "contact" ? "active" : ""}`}>
                             <a href="/contact" title="Contato">{ useTranslation("topMenu.contact") }</a>
                         </li>
+                        <li >
+                              <TranslateMenu/>
+                        </li>
                     </ul>
                 </nav>
-                
-                <TranslateMenu/>
-                
+             
             </div>
         </div>
     </header>
