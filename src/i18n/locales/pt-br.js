@@ -8,8 +8,8 @@ export default {
     },
     home:{
       banner: {
-        title: 'Lwandisurf',
-        subtitle: 'Uma onda de esperança',
+        title: 'Lwandi Surf',
+        subtitle: 'Uma Onda de Esperança',
         buttonTxt: 'Apoie o projeto'
       },
       missionValueVision: {

@@ -49,7 +49,7 @@ function About() {
                     <div className="row">
                         <div className="text-center animate-box">
                             <div className="col-md-12 text-center heading-section mt-5">
-                                <h3>{ useTranslation("aboutUs.fouders.title") }</h3>
+                                <h3>{ useTranslation("aboutUs.founders.title") }</h3>
                             </div>
                             <div id="fh5co-features">
                                 <div className="container">
